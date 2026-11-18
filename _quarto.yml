@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "R Essentials: A Practical Guide to Statistical Analysis"
+  author: "Tengku Muhammad Hanis Bin Tengku Mokhtar, PhD"
+  date: today
+  date-format: "MMM D, YYYY"
+  cover-image: images/book_cover.png
+  favicon: images/thumbnail2.png
+  chapters:
+    - index.qmd
+    - about.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
